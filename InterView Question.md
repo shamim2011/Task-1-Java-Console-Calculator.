@@ -74,6 +74,9 @@ char – 16-bit Unicode character (range: '\u0000' to '\uffff')
 boolean – represents true or false values  
 ***5.How is Scanner used for input?***  
 **Ans**  
+Scanner scanner = new Scanner(System.in); creates a scanner to read input from the keyboard.  
+Methods like nextInt() and nextLine() read different types of input.  
+Always close the scanner with scanner.close(); when done.  
 ***6.Explain the role of a loop.***  
 **Ans**  
 ***7.Difference between while and for loop?***  
