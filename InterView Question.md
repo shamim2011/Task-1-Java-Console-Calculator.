@@ -62,6 +62,16 @@ System.out.println(a.equals(b));   // true  (same content)
 
 ***4.What are the basic data types in Java?***  
 **Ans**   
+In Java, the basic (or primitive) data types are:
+
+byte – 8-bit signed integer (range: -128 to 127)
+short – 16-bit signed integer (range: -32,768 to 32,767)
+int – 32-bit signed integer (range: -2,147,483,648 to 2,147,483,647)
+long – 64-bit signed integer (range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+float – 32-bit floating point number (single precision)
+double – 64-bit floating point number (double precision)
+char – 16-bit Unicode character (range: '\u0000' to '\uffff')
+boolean – represents true or false values
 ***5.How is Scanner used for input?***  
 **Ans**  
 ***6.Explain the role of a loop.***  
