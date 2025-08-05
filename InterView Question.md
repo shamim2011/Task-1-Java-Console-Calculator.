@@ -132,7 +132,7 @@ This bytecode runs on the Java Virtual Machine (JVM), and since each platform (W
 ***10.How do you debug a Java program?***  
 **Ans**  
 ✅ How to Debug a Java Program (Short)  
-Use Print Statements  
+Use Print Statements   
 Insert System.out.println() to check variable values and flow.  
 Use an IDE Debugger (like IntelliJ or Eclipse)  
 Set breakpoints  
