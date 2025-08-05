@@ -18,12 +18,44 @@ By changing the data type of arguments
 
 By changing the order of arguments (if types are different)
 
-2.How do you handle divide-by-zero?
-3.Difference between == and .equals()?
-4.What are the basic data types in Java?
-5.How is Scanner used for input?
-6.Explain the role of a loop.
-7.Difference between while and for loop?
-8.What is the JVM?
-9.How is Java platform-independent?
-10.How do you debug a Java program?
+***2.How do you handle divide-by-zero?***  
+**Ans**  1. Using if check (for integers or doubles)
+if (denominator != 0) {
+    int result = numerator / denominator;
+} else {
+    System.out.println("Cannot divide by zero.");
+}
+2. Using try-catch block (for integers)
+try {
+    int result = num1 / num2;
+} catch (ArithmeticException e) {
+    System.out.println("Error: Division by zero is not allowed.");
+}
+📝 Note: ArithmeticException is only thrown for integer division, not for double division.
+
+3. For double values
+No exception is thrown, but result is:
+
+Infinity if divided by 0.0
+
+NaN (Not a Number) if 0.0 / 0.0
+
+double result = 10.0 / 0.0;   // result = Infinity
+
+
+***3.Difference between == and .equals()?***  
+**Ans**  
+***4.What are the basic data types in Java?***  
+**Ans**   
+***5.How is Scanner used for input?***  
+**Ans**  
+***6.Explain the role of a loop.***  
+**Ans**  
+***7.Difference between while and for loop?***  
+**Ans**  
+***8.What is the JVM?***  
+**Ans**  
+***9.How is Java platform-independent?***  
+**Ans**  
+***10.How do you debug a Java program?***  
+**Ans**  
