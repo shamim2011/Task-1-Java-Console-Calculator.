@@ -79,6 +79,21 @@ Methods like nextInt() and nextLine() read different types of input.
 Always close the scanner with scanner.close(); when done.  
 ***6.Explain the role of a loop.***  
 **Ans**  
+🔁 Role of a Loop in Java
+A loop in Java is used to execute a block of code repeatedly as long as a specified condition is true.  
+It helps reduce code duplication and makes programs more efficient and dynamic.  
+✅ Why Use Loops?  
+To repeat tasks automatically  
+
+To iterate over arrays, lists, or collections  
+
+To process input/output continuously  
+
+To perform tasks like searching, counting, etc.  
+for loop -> When the number of iterations is known  
+while loop	-> When the condition is checked before each run  
+do-while loop	-> Executes at least once, checks condition later  
+for-each loop	-> Used to traverse arrays or collections  
 ***7.Difference between while and for loop?***  
 **Ans**  
 ***8.What is the JVM?***  
