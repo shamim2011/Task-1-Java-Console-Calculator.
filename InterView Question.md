@@ -114,5 +114,24 @@ Manages memory (Garbage Collection)
 Ensures security and portability  
 ***9.How is Java platform-independent?***  
 **Ans**  
+✅ Why Java is Platform-Independent (Short)  
+Java is platform-independent because Java code is compiled into bytecode, which is not specific to any platform.  
+This bytecode runs on the Java Virtual Machine (JVM), and since each platform (Windows, Linux, Mac) has its own JVM implementation, the same Java program can run anywhere the JVM is installed.  
+
+🧠 Key Phrase:  
+"Write Once, Run Anywhere" — thanks to bytecode and JVM.  
 ***10.How do you debug a Java program?***  
 **Ans**  
+✅ How to Debug a Java Program (Short)  
+Use Print Statements  
+Insert System.out.println() to check variable values and flow.  
+Use an IDE Debugger (like IntelliJ or Eclipse)  
+Set breakpoints  
+Step through code (Step Into, Step Over)  
+Inspect variables, call stack, and watch expressions  
+Use Exception Messages  
+Read stack traces to locate the exact error line.  
+Use Logging  
+Replace prints with logging (java.util.logging, Log4j) for better control.  
+Test in Small Parts  
+Break code into methods and test individually (unit testing).  
