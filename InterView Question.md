@@ -45,6 +45,21 @@ double result = 10.0 / 0.0;   // result = Infinity
 
 ***3.Difference between == and .equals()?***  
 **Ans**  
+Use == for:
+
+Comparing primitive types
+
+Checking if two object references point to the same object
+
+Use .equals() for:
+
+Comparing values/content of two objects
+String a = new String("Java");
+String b = new String("Java");
+
+System.out.println(a == b);        // false (different objects)
+System.out.println(a.equals(b));   // true  (same content)
+
 ***4.What are the basic data types in Java?***  
 **Ans**   
 ***5.How is Scanner used for input?***  
