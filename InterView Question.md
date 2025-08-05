@@ -96,8 +96,22 @@ do-while loop	-> Executes at least once, checks condition later
 for-each loop	-> Used to traverse arrays or collections  
 ***7.Difference between while and for loop?***  
 **Ans**  
+✅ Difference Between for and while Loop (Short)
+for loop is used when the number of iterations is known. All loop control (init, condition, update) is in one line.  
+while loop is used when the number of iterations is unknown, and the condition is checked before each iteration.  
+for is compact and best for counting; while is flexible and suits dynamic conditions.  
+
+
 ***8.What is the JVM?***  
 **Ans**  
+✅ JVM (Java Virtual Machine) – Short Definition  
+The JVM (Java Virtual Machine) is a part of the Java Runtime Environment (JRE) that executes Java bytecode.  
+It allows Java programs to run independently of the underlying hardware and OS (i.e., Write Once, Run Anywhere).  
+🔧 Key Roles of JVM:  
+Loads and verifies .class files (bytecode)  
+Executes bytecode line by line  
+Manages memory (Garbage Collection)  
+Ensures security and portability  
 ***9.How is Java platform-independent?***  
 **Ans**  
 ***10.How do you debug a Java program?***  
