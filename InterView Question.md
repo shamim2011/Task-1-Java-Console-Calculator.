@@ -1,6 +1,8 @@
-## Interview Questions:
+### Interview Questions:
 
-1.What is method overloading?
+##1.What is method overloading?
+**Ans**
+
 2.How do you handle divide-by-zero?
 3.Difference between == and .equals()?
 4.What are the basic data types in Java?
