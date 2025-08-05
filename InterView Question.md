@@ -1,3 +1,12 @@
+### 💡 What it Does:
+ • This Java program is a console-based calculator that performs basic arithmetic operations.  
+ • It provides users with a menu to choose between addition, subtraction, multiplication, and division.  
+ • The program reads two integer inputs and calls the corresponding method to perform the selected operation.  
+ • It runs in a loop until the user selects option 5 to exit the calculator.  
+
+
+
+
 ### Interview Questions:
 
 ***1.What is method overloading?***  
