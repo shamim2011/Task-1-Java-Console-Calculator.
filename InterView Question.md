@@ -49,9 +49,9 @@ Use == for:
 
 Comparing primitive types
 
-Checking if two object references point to the same object
+Checking if two object references point to the same object  
 
-Use .equals() for:
+Use .equals() for:  
 
 Comparing values/content of two objects
 String a = new String("Java");
